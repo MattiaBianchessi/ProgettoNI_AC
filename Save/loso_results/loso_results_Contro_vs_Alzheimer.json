@@ -1,0 +1,551 @@
+{
+  "experiment_name": "Contro_vs_Alzheimer",
+  "n_subjects": 65,
+  "n_segments_total": 26951,
+  "segments": {
+    "accuracy": 0.5229119513190605,
+    "accuracy_std": 0.30779087674248623,
+    "precision": 0.5202532600523445,
+    "recall": 0.5229119513190605,
+    "f1_score": 0.5211024620153648
+  },
+  "subjects": {
+    "accuracy": 0.5384615384615384,
+    "accuracy_std": 0.4985185152621431,
+    "precision": 0.5271395271395272,
+    "recall": 0.5384615384615384,
+    "f1_score": 0.5246153846153846
+  },
+  "subject_results": [
+    {
+      "subject": "sub-001",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.57,
+      "n_segments": 300
+    },
+    {
+      "subject": "sub-002",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.2141057934508816,
+      "n_segments": 397
+    },
+    {
+      "subject": "sub-003",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9805194805194806,
+      "n_segments": 154
+    },
+    {
+      "subject": "sub-004",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.692090395480226,
+      "n_segments": 354
+    },
+    {
+      "subject": "sub-005",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.10421836228287841,
+      "n_segments": 403
+    },
+    {
+      "subject": "sub-006",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7774294670846394,
+      "n_segments": 319
+    },
+    {
+      "subject": "sub-007",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.6571428571428571,
+      "n_segments": 385
+    },
+    {
+      "subject": "sub-008",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9325,
+      "n_segments": 400
+    },
+    {
+      "subject": "sub-009",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7947882736156352,
+      "n_segments": 307
+    },
+    {
+      "subject": "sub-010",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.02631578947368421,
+      "n_segments": 646
+    },
+    {
+      "subject": "sub-011",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7227979274611399,
+      "n_segments": 386
+    },
+    {
+      "subject": "sub-012",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7777777777777778,
+      "n_segments": 450
+    },
+    {
+      "subject": "sub-013",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.47268408551068886,
+      "n_segments": 421
+    },
+    {
+      "subject": "sub-014",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.4820295983086681,
+      "n_segments": 473
+    },
+    {
+      "subject": "sub-015",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9078947368421053,
+      "n_segments": 456
+    },
+    {
+      "subject": "sub-016",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7221095334685599,
+      "n_segments": 493
+    },
+    {
+      "subject": "sub-017",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.8042452830188679,
+      "n_segments": 424
+    },
+    {
+      "subject": "sub-018",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.6839622641509434,
+      "n_segments": 424
+    },
+    {
+      "subject": "sub-019",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.8980477223427332,
+      "n_segments": 461
+    },
+    {
+      "subject": "sub-020",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.2574712643678161,
+      "n_segments": 435
+    },
+    {
+      "subject": "sub-021",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9502164502164502,
+      "n_segments": 462
+    },
+    {
+      "subject": "sub-022",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.18689320388349515,
+      "n_segments": 412
+    },
+    {
+      "subject": "sub-023",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.33564814814814814,
+      "n_segments": 432
+    },
+    {
+      "subject": "sub-024",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.18229166666666666,
+      "n_segments": 384
+    },
+    {
+      "subject": "sub-025",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9,
+      "n_segments": 350
+    },
+    {
+      "subject": "sub-026",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.6775599128540305,
+      "n_segments": 459
+    },
+    {
+      "subject": "sub-027",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.6754807692307693,
+      "n_segments": 416
+    },
+    {
+      "subject": "sub-028",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.0,
+      "n_segments": 414
+    },
+    {
+      "subject": "sub-029",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.6091644204851752,
+      "n_segments": 371
+    },
+    {
+      "subject": "sub-030",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9283154121863799,
+      "n_segments": 279
+    },
+    {
+      "subject": "sub-031",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.7806563039723662,
+      "n_segments": 579
+    },
+    {
+      "subject": "sub-032",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.9602803738317757,
+      "n_segments": 428
+    },
+    {
+      "subject": "sub-033",
+      "true_label": "A",
+      "pred_label": "C",
+      "correct": false,
+      "segment_accuracy": 0.16101694915254236,
+      "n_segments": 354
+    },
+    {
+      "subject": "sub-034",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.5267489711934157,
+      "n_segments": 486
+    },
+    {
+      "subject": "sub-035",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.5646437994722955,
+      "n_segments": 379
+    },
+    {
+      "subject": "sub-036",
+      "true_label": "A",
+      "pred_label": "A",
+      "correct": true,
+      "segment_accuracy": 0.8805620608899297,
+      "n_segments": 427
+    },
+    {
+      "subject": "sub-037",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.36503856041131105,
+      "n_segments": 389
+    },
+    {
+      "subject": "sub-038",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.7165178571428571,
+      "n_segments": 448
+    },
+    {
+      "subject": "sub-039",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.053613053613053616,
+      "n_segments": 429
+    },
+    {
+      "subject": "sub-040",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.8703339882121808,
+      "n_segments": 509
+    },
+    {
+      "subject": "sub-041",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.39414414414414417,
+      "n_segments": 444
+    },
+    {
+      "subject": "sub-042",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.24795081967213115,
+      "n_segments": 488
+    },
+    {
+      "subject": "sub-043",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.2819277108433735,
+      "n_segments": 415
+    },
+    {
+      "subject": "sub-044",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.0,
+      "n_segments": 441
+    },
+    {
+      "subject": "sub-045",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.4722222222222222,
+      "n_segments": 432
+    },
+    {
+      "subject": "sub-046",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.1394736842105263,
+      "n_segments": 380
+    },
+    {
+      "subject": "sub-047",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.4381188118811881,
+      "n_segments": 404
+    },
+    {
+      "subject": "sub-048",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.5601577909270217,
+      "n_segments": 507
+    },
+    {
+      "subject": "sub-049",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.8575063613231552,
+      "n_segments": 393
+    },
+    {
+      "subject": "sub-050",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.21014492753623187,
+      "n_segments": 414
+    },
+    {
+      "subject": "sub-051",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.41116751269035534,
+      "n_segments": 394
+    },
+    {
+      "subject": "sub-052",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.46981627296587924,
+      "n_segments": 381
+    },
+    {
+      "subject": "sub-053",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.03,
+      "n_segments": 400
+    },
+    {
+      "subject": "sub-054",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.07819905213270142,
+      "n_segments": 422
+    },
+    {
+      "subject": "sub-055",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.5631067961165048,
+      "n_segments": 412
+    },
+    {
+      "subject": "sub-056",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.7765237020316027,
+      "n_segments": 443
+    },
+    {
+      "subject": "sub-057",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.17794486215538846,
+      "n_segments": 399
+    },
+    {
+      "subject": "sub-058",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.9685863874345549,
+      "n_segments": 382
+    },
+    {
+      "subject": "sub-059",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.0379746835443038,
+      "n_segments": 395
+    },
+    {
+      "subject": "sub-060",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.9521276595744681,
+      "n_segments": 376
+    },
+    {
+      "subject": "sub-061",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.943069306930693,
+      "n_segments": 404
+    },
+    {
+      "subject": "sub-062",
+      "true_label": "C",
+      "pred_label": "C",
+      "correct": true,
+      "segment_accuracy": 0.7724288840262582,
+      "n_segments": 457
+    },
+    {
+      "subject": "sub-063",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.34074074074074073,
+      "n_segments": 405
+    },
+    {
+      "subject": "sub-064",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.45176470588235296,
+      "n_segments": 425
+    },
+    {
+      "subject": "sub-065",
+      "true_label": "C",
+      "pred_label": "A",
+      "correct": false,
+      "segment_accuracy": 0.15349887133182843,
+      "n_segments": 443
+    }
+  ],
+  "confusion_matrix": [
+    [
+      10,
+      19
+    ],
+    [
+      11,
+      25
+    ]
+  ]
+}
